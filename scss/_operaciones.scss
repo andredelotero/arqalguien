@@ -1,0 +1,31 @@
+@mixin botones($top, $bgcolor, $color) {
+  background-color: $bgcolor;
+  color: $color;
+  margin-top: $top;
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 0;
+}
+
+$redes: (
+  instagram: #ca3082,
+  facebook: #4867aa,
+  twitter: #1da1f2,
+  behance: #0066f7,
+);
+
+@each $red, $color in $redes {
+  .icon--#{$red} {
+    color: $color;
+  }
+}
+
+@for $i from 1 through 6 {
+  .p__leading#{$i} {
+    color: lighten(#000000, $i * 10);
+  }
+}
