@@ -480,6 +480,16 @@ footer .footer--cta:hover {
   padding-left: 15px;
 }
 
+.no--underline {
+  text-decoration: none;
+}
+
+.no--background {
+  background-image: none;
+  background-color: #fff;
+  opacity: 1;
+}
+
 @media (min-width: 710px) {
   body {
     max-width: 100%;
