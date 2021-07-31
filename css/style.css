@@ -203,6 +203,10 @@ header .header__titlescta {
   grid-column: 1/9;
   padding: 100px 15px 60px 15px;
 }
+header .mail--sent {
+  background: #4abb95;
+}
+
 header .header__titlescta h1 {
   color: #fff;
   font-size: 3.8em;
@@ -526,7 +530,7 @@ footer .footer--cta:hover {
   height: 100vh;
   animation: apagado 3s linear;
   opacity: 0;
-  z-index: 0;
+  z-index: -1;
 }
 .loader_1,
 .loader_2,

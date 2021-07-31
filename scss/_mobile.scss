@@ -196,6 +196,9 @@ header {
       }
     }
   }
+  header .mail--sent {
+    background: #4abb95;
+  }
   img {
     display: none;
   }
@@ -454,7 +457,7 @@ footer {
   height: 100vh;
   animation: apagado 3s linear;
   opacity: 0;
-  z-index: 0;
+  z-index: -1;
 }
 .loader_1,
 .loader_2,
