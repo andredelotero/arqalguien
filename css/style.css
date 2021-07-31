@@ -490,6 +490,73 @@ footer .footer--cta:hover {
   opacity: 1;
 }
 
+/*loader envio emails*/
+
+@keyframes apagado {
+  0% {
+    opacity: 1;
+    z-index: 999;
+  }
+  90% {
+    opacity: 1;
+    z-index: 999;
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+@keyframes rotar {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #cecece;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  animation: apagado 3s linear;
+  opacity: 0;
+  z-index: 0;
+}
+.loader_1,
+.loader_2,
+.loader_3 {
+  position: absolute;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+}
+.loader_1 {
+  width: 80px;
+  height: 80px;
+  border-top: 2px solid #337080;
+  animation: linear rotar 0.5s infinite;
+}
+.loader_2 {
+  width: 90px;
+  height: 90px;
+  border-top: 2px solid #a50d0f;
+  animation: linear rotar 1s infinite;
+}
+.loader_3 {
+  width: 100px;
+  height: 100px;
+  border-top: 2px solid #4abb95;
+  animation: linear rotar 0.6s infinite;
+}
+
+/**/
+
 @media (min-width: 710px) {
   body {
     max-width: 100%;
