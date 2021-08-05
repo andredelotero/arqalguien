@@ -144,20 +144,22 @@
   .containerImg {
     display: -ms-grid;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     align-content: center;
     justify-items: center;
-    gap: 1rem;
+    gap: 1.2rem;
     width: 90%;
     div {
       display: inline-block;
-      width: 260px;
+      width: 350px;
       height: auto;
       img {
         width: 100%;
-        height: 160px;
+        height: auto;
         -webkit-transition: all 0.2s;
         transition: all 0.2s;
+        box-shadow: 2px 2px 6px #333;
+        border-radius: 2px;
         &:hover {
           -webkit-transform: scale(1.1);
           transform: scale(1.1);
