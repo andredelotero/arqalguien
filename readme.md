@@ -19,3 +19,6 @@ VsCode
 Autor:
 André Gama del Otero
 (Camada 16640 - Curso de desarrollo web - CoderHouse)
+
+Obs:
+Los archivos de favicon estan en el root (y no en el directorio de imagenes) asi el servidor los levanta automaticamente
