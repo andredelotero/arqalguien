@@ -373,7 +373,7 @@ header img {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   width: 340px;
-  height: 390px;
+  height: 410px;
 }
 
 .staff .staff__article img {
@@ -479,7 +479,7 @@ header img {
   margin: 25px;
   text-align: center;
   width: 350px;
-  height: 130px;
+  height: 150px;
   padding: 15px 10px;
   border-radius: 15px 0;
   -webkit-transition: all 0.3s ease-in-out;
